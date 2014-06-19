@@ -4,9 +4,6 @@ if(true) {
     ini_set('display_errors', true);
 }
 
-DEFINE('API_URL', 'http://heliosapi.homes.com/v1/');
-DEFINE('API_KEY', '0000000000000000000000000000000');
-
 // Set default timezone
 date_default_timezone_set('America/New_York');
 putenv('TZ=US/Eastern');
