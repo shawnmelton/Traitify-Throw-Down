@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Results Test</title>
+	<script src="http://cdn.traitify.com/js/api/1.0.0.js"></script>
+	<script src="http://cdn.traitify.com/js/widgets/results/prop/1.0.0.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</head>
+
+<body>
+<div class="results-prop-traits"></div>
+<div id="types"></div>
+
+<script>
+	Traitify.setPublicKey("hfr3vcfqfshcolkhbbh01qlokv");
+	Traitify.setHost("https://api-sandbox.traitify.com");
+	Traitify.setVersion("v1");
+
+	//Traitify.ui.resultsProp("b83ecee4-953a-4bf7-9dbd-3c7a55ec375f", ".results-prop-traits", {showTraits: true});
+	var player1, player2;
+	Traitify.get('/assessments/b83ecee4-953a-4bf7-9dbd-3c7a55ec375f/personality_traits', function(data){ 
+		
+		console.log(data);
+		
+		compulsive = data.filter(function(x){
+			return x.personality_trait.name=="Compulsive";
+		});
+		
+		console.log(compulsive.score);
+		
+		eclectic = data.filter(function(x){
+			return x.personality_trait.name=="Eclectic";
+		});
+		console.log(eclectic[0]);
+
+		conversational = data.filter(function(x){
+			return x.personality_trait.name=="Conversational";
+		});
+		console.log(conversational[0]);
+
+	});
+</script>
+</body>
+</html>
