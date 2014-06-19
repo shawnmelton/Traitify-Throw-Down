@@ -20,8 +20,8 @@ AWS Information
 
 MySQL Information:
 
-User: hackathon
+User: root
 
-Password: Hoc#AthOn!
+Password: root (I know, right?)
 
-Web Site:  http://default-environment-2aswzwdkwi.elasticbeanstalk.com/
+Web Site:  http://54.201.250.226/
