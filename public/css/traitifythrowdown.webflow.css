@@ -1,0 +1,583 @@
+body {
+  padding-top: 2%;
+  background-color: black;
+  background-image: -webkit-radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.76) 36%, rgba(0, 0, 0, 0)), url('../images/marvel-wallpaper.jpg');
+  background-image: -o-radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.76) 36%, rgba(0, 0, 0, 0)), url('../images/marvel-wallpaper.jpg');
+  background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.76) 36%, rgba(0, 0, 0, 0)), url('../images/marvel-wallpaper.jpg');
+  background-position: 0% 0%, 50% 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, fixed;
+  font-family:'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+h1 {
+  margin: 10px 0px;
+  font-family:'Roboto Condensed', sans-serif;
+  color: #2d3338;
+  font-size: 69px;
+  line-height: 54px;
+  font-style: normal;
+  font-weight: 700;
+  text-shadow: none;
+}
+h2 {
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 400;
+  text-shadow: none;
+}
+h3 {
+  margin: 5px 0px;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+  text-shadow: none;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-shadow: none;
+}
+.button {
+  display: block;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px 29px;
+  border: 3px solid white;
+  background-color: #008ec5;
+  -webkit-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;
+  font-family: Bangers, sans-serif;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.button:hover {
+  background-color: white;
+  -webkit-transform: scale(1.18);
+  -ms-transform: scale(1.18);
+  -o-transform: scale(1.18);
+  transform: scale(1.18);
+  color: black;
+}
+.button.fight-button {
+  margin-top: 25px;
+}
+.subtitle {
+  margin-bottom: 65px;
+  font-family: Bangers, sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-shadow: black 0px 1px 50px;
+}
+.subtitle.conflict {
+  margin-bottom: 68px;
+  padding-bottom: 0px;
+  color: #ff8f21;
+  font-size: 65px;
+  line-height: 70px;
+  letter-spacing: 3px;
+  text-shadow: none;
+}
+.subtitle.conflict.subhead {
+  margin-bottom: 25px;
+  color: #666;
+  font-size: 45px;
+  line-height: 50px;
+  letter-spacing: 2px;
+  text-shadow: none;
+}
+.subtitle.home {
+  text-shadow: none;
+}
+.subtitle.headline1 {
+  margin-bottom: 0px;
+  text-shadow: none;
+}
+.field {
+  height: 54px;
+  margin-bottom: 19px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 0px solid black;
+  -webkit-transition: box-shadow 150ms ease;
+  -o-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+  color: #262c46;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.field:focus {
+  box-shadow: #00caf2 0px 0px 0px 2px inset;
+}
+.sign-up-form {
+  display: block;
+  width: 415px;
+  margin: 35px auto 66px;
+}
+.social-widget {
+  width: 100px;
+  float: left;
+  -webkit-transition: opacity 300ms ease;
+  -o-transition: opacity 300ms ease;
+  transition: opacity 300ms ease;
+}
+.social-widget.full-opacity {
+  opacity: 1;
+}
+.social-widget-wrapper {
+  display: block;
+  width: 223px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+}
+.social-widget-wrapper.thank-you {
+  display: block;
+  width: 216px;
+  margin-top: 13px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 16px;
+}
+.success-message {
+  padding: 20px;
+  border-radius: 2px;
+  background-color: #737373;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.spread-word {
+  margin-top: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+.error-message {
+  padding-bottom: 5px;
+  border-radius: 2px;
+  background-color: #5c3245;
+}
+.content-wrapper {
+  display: inline-block;
+  width: 60%;
+}
+.header-section {
+  height: 100%;
+  padding-top: 104px;
+  background-color: #e0ddd7;
+  text-align: center;
+}
+.footer-section {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding-top: 38px;
+  padding-bottom: 34px;
+  background-color: rgba(0, 0, 0, 0.18);
+  color: #7e7c87;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.52);
+  text-align: left;
+}
+.bars-wrapper {
+  height: 7px;
+  background-color: #1abc9c;
+}
+.bar {
+  width: 14.285%;
+  height: 7px;
+  float: left;
+  background-color: #1abc9c;
+}
+.bar._2 {
+  background-color: #f2ca27;
+}
+.bar._3 {
+  background-color: #e67e22;
+}
+.bar._4 {
+  background-color: #16a085;
+}
+.bar._5 {
+  background-color: #2980b9;
+}
+.bar._6 {
+  background-color: #e74c3c;
+}
+.bar._7 {
+  background-color: #a366bc;
+}
+.container.child-page {
+  padding: 25px;
+  border-radius: 10px;
+  background-color: white;
+}
+.container.home {
+  margin-top: 6%;
+}
+.image-crop {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 260px;
+}
+.social-section {
+  padding-top: 58px;
+  padding-bottom: 58px;
+  text-align: center;
+}
+.share-btn {
+  display: inline-block;
+  width: 61px;
+  margin-right: 14px;
+  margin-left: 14px;
+}
+.share-wrapper {
+  margin-top: 32px;
+}
+.refer {
+  color: rgba(255, 255, 255, 0.59);
+}
+.align-right {
+  text-align: right;
+}
+.social-btn {
+  margin-left: 17px;
+  opacity: 0.44;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.social-btn:hover {
+  opacity: 1;
+}
+.logo {
+  display: inline-block;
+  width: 60%;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  padding: 21px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 8px;
+  text-shadow: none;
+}
+.logo.child-page {
+  width: 30%;
+  text-shadow: none;
+}
+.about {
+  font-family:'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.join {
+  display: block;
+  width: 40%;
+  margin-top: -12px;
+  margin-bottom: 15px;
+  float: left;
+  font-size: 22px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+.beta-line {
+  width: 30%;
+  height: 1px;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.36);
+}
+.hero-badge {
+  border: 5px solid white;
+  border-radius: 175px;
+  box-shadow: black 0px 0px 0px 5px;
+}
+.badge-row {
+  margin-bottom: 70px;
+}
+.traits {
+  padding-left: 0px;
+}
+.trait-text {
+  margin-top: 15px;
+  font-family: Bangers, sans-serif;
+  color: #333;
+  font-size: 22px;
+  line-height: 26px;
+}
+.outer-bar {
+  border: 5px solid #333;
+}
+.outer-bar.left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.outer-bar.right {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.bar-fill {
+  width: 25%;
+  height: 50px;
+}
+.bar-fill.left {
+  float: right;
+  background-color: #6aff00;
+}
+.bar-fill.right {
+  width: 75%;
+  float: left;
+  background-color: #6aff00;
+}
+.traitify-wrapper {
+  height: 500px;
+  border: 5px dotted black;
+}
+.fight-col {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+html.w-mod-js *[data-ix="intro"] {
+  opacity: 0;
+  -webkit-transform: scale(0.1);
+  -ms-transform: scale(0.1);
+  -o-transform: scale(0.1);
+  transform: scale(0.1);
+}
+html.w-mod-js *[data-ix="left-badge"] {
+  opacity: 0;
+  -webkit-transform: translate(-100px, 0px);
+  -ms-transform: translate(-100px, 0px);
+  -o-transform: translate(-100px, 0px);
+  transform: translate(-100px, 0px);
+}
+html.w-mod-js *[data-ix="right-badge"] {
+  opacity: 0;
+  -webkit-transform: translate(100px, 0px);
+  -ms-transform: translate(100px, 0px);
+  -o-transform: translate(100px, 0px);
+  transform: translate(100px, 0px);
+}
+@media (max-width: 991px) {
+  .subtitle {
+    font-size: 29px;
+    text-shadow: none;
+  }
+  .subtitle.conflict {
+    text-shadow: none;
+  }
+  .content-wrapper {
+    width: 81%;
+  }
+  .container {
+    padding-right: 57px;
+    padding-left: 57px;
+  }
+  .social-btn {
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .social-btn:hover {
+    opacity: 0.8;
+  }
+  .join {
+    width: 50%;
+    font-size: 21px;
+    text-shadow: none;
+  }
+  .beta-line {
+    width: 25%;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    padding-top: 10px;
+  }
+  .subtitle {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 43px;
+    text-shadow: none;
+  }
+  .subtitle.conflict {
+    text-shadow: none;
+  }
+  .sign-up-form {
+    margin-bottom: 64px;
+  }
+  .content-wrapper {
+    width: 100%;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .header-section {
+    padding-top: 37px;
+  }
+  .footer-section {
+    position: static;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: rgba(0, 0, 0, 0.49);
+  }
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .container.child-page {
+    border-radius: 0px;
+  }
+  .social-section {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .logo {
+    text-shadow: none;
+  }
+  .logo.child-page {
+    width: 70%;
+    margin-bottom: 10px;
+    text-shadow: none;
+  }
+  .join {
+    text-shadow: none;
+  }
+}
+@media (max-width: 479px) {
+  body {
+    background-image: -webkit-radial-gradient(circle at 50% 31%, rgba(0, 0, 0, 0.76) 36%, rgba(0, 0, 0, 0)), url('../images/marvel-wallpaper.jpg');
+    background-image: -o-radial-gradient(circle at 50% 31%, rgba(0, 0, 0, 0.76) 36%, rgba(0, 0, 0, 0)), url('../images/marvel-wallpaper.jpg');
+    background-image: radial-gradient(circle at 50% 31%, rgba(0, 0, 0, 0.76) 36%, rgba(0, 0, 0, 0)), url('../images/marvel-wallpaper.jpg');
+    background-position: 0% 0%, 0px 0px;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 31px;
+    text-shadow: none;
+  }
+  p {
+    font-size: 20px;
+    text-shadow: none;
+  }
+  .button {
+    width: 100%;
+    margin-left: 0px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+  }
+  .subtitle {
+    padding-bottom: 36px;
+    font-size: 22px;
+    line-height: 26px;
+    text-shadow: none;
+  }
+  .subtitle.conflict {
+    text-shadow: none;
+  }
+  .field {
+    width: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    text-align: center;
+  }
+  .sign-up-form {
+    width: 100%;
+    margin-top: 22px;
+  }
+  .social-widget {
+    width: 96px;
+  }
+  .social-widget-wrapper {
+    display: block;
+    width: 221px;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+  }
+  .copyright {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .image-crop {
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .social-section {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+  .align-right {
+    text-align: center;
+  }
+  .social-btn {
+    margin-right: 17px;
+  }
+  .logo {
+    font-size: 43px;
+    text-shadow: none;
+  }
+  .join {
+    width: 75%;
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    text-shadow: none;
+  }
+  .beta-line {
+    width: 12%;
+  }
+}
+
