@@ -23,3 +23,5 @@ MySQL Information:
 User: hackathon
 
 Password: Hoc#AthOn!
+
+Web Site:  http://default-environment-2aswzwdkwi.elasticbeanstalk.com/
